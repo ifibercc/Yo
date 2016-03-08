@@ -16,25 +16,5 @@ $(document).ready(function () {
     });
 
     // timeline
-    var ev = [
-        {
-            id: 1,
-            name: "Yo团队组建成功",
-            on: new Date(2016, 2, 5)
-        },
-        {
-            id: 2,
-            name: "Yo团队在GitHub第一次提交代码",
-            on: new Date(2016, 2, 8)
-        }
-    ];
-    $('#longTimeLine').jqtimeline({
-        events: ev,
-        numYears: 1,
-        startYear: 2016,
-        gap: 150,
-        click: function (e, event) {
-            //loadPage(event);
-        }
-    });
+
 });
