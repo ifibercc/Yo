@@ -1,3 +1,7 @@
+ul li{
+	list-style: none;
+	cursor:pointer;
+}
 .header .content{
 	z-index: 999;
 	background-color: #000;
@@ -108,4 +112,28 @@ ul.sdt_menu li div.sdt_box a:first-child{
 ul.sdt_menu li div.sdt_box a:hover{
 	color:#fff;
 }
+#pyContent{
+	width:100%;
+	height: 100%;
+	text-align: left;
+	background: url('../img/py.jpg') no-repeat;
+} 
+#pyContent .pyProduct{
+	font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+	font-size: 60px;
+	color: #9FDAA0;
+	position: relative;
+	left: 300px;
+	top:150px;
+    text-shadow: 0 0 0 #FF0808;
+    letter-spacing: 40px;
+}
+#pyContent ul{
+	position: relative;
+	top: 120px;
+	left: 500px;
+}
 
+#pyContent ul li{
+	margin-top: 40px;
+}
